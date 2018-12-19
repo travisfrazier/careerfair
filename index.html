@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Online Form</title>
+		<link
+			href="http://fonts.googleapis.com/css?family=Nunito:400,300"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<link type="text/css" rel="stylesheet" href="./resources/css/style.css" />
+	</head>
+	<body>
+		<!-- Header Section -->
+		<header>
+			<div id="title">
+				<h1>3rd ANNUAL EDUCATION CAREER FAIR</h1>
+				<p>hosted by</p>
+				<img src="./resources/images/logo.png" />
+			</div>
+		</header>
+		<div class="wrapper">
+			<div id="info">
+				<h2>Welcoming All to our Education Career Fair</h2>
+				<p><strong>Saturday, February 2nd, 2019 | 9:30am - 12:30pm</strong></p>
+				<p>San Diego | Oakland</p>
+				<p><strong>Saturday, February 9th, 2019 | 9:30am - 12:30pm</strong></p>
+				<p>Fresno | Los Angeles | Sacramento</p>
+				<p class="desc">
+					Alliant International University's California School of Education is
+					teaming up with local school districts to host our 3rd Annual
+					Education Career Fair. Whether you are looking to change careers and
+					are new to the field of education, or you are a current educator
+					looking for job opportunities to specialize or further your
+					profession, we welcome you to join us in a day of educational
+					exploration.
+				</p>
+			</div>
+
+			<!-- Input Section -->
+			<section>
+				<form name="signup" method="post">
+					<legend>
+						<h3 id="contact">Don't wait, RSVP now for this free event!</h3>
+					</legend>
+
+					<fieldset>
+						<label for="name">First Name</label>
+						<input type="text" id="name" name="name" />
+
+						<label for="name">Last Name</label>
+						<input type="text" id="name" name="name" />
+
+						<label for="mail">Email Address</label>
+						<input type="email" id="mail" name="user_email" />
+
+						<label for="">Phone Number</label>
+						<input type="number" id="number" name="user_number" />
+					</fieldset>
+
+					<fieldset>
+						<label for="campus">Which campus will you be visiting?</label>
+						<select id="state" name="campus">
+							<option value="Please select"
+								>Please select from the following:</option
+							>
+							<option value="San Diego | 10455 Pomerado Road, San Diego 92131"
+								>San Diego | 10455 Pomerado Road, San Diego 92131</option
+							>
+							<option value="Oakland | 1045 Derby Ave, Oakland, CA 94601"
+								>Oakland | 1045 Derby Ave, Oakland, CA 94601</option
+							>
+							<option value="Fresno | 5130 E Clinton Way, Fresno 93727"
+								>Fresno | 5130 E Clinton Way, Fresno 93727</option
+							>
+							<option value="Los Angeles | 1000 S Fremont Ave., Alhambra 91803"
+								>Los Angeles | 1000 S Fremont Ave., Alhambra 91803</option
+							>
+							<option
+								value="Sacramento | 2030 W El Camino Ave, Sacramento, CA 95833"
+								>Sacramento | 2030 W El Camino Ave, Sacramento, CA 95833</option
+							>
+						</select>
+
+						<label for="campus">Please identify if you are:</label>
+						<select id="state" name="campus">
+							<option value="Please select"
+								>Please select from the following:</option
+							>
+							<option value="A credentialed teacher/counselor/psychologist"
+								>A credentialed teacher/counselor/psychologist</option
+							>
+							<option value="Job Seeker">Job Seeker</option>
+							<option value="Interested in pursuing a credential"
+								>Interested in pursuing a credential</option
+							>
+							<option value="Other">Other</option>
+							<option value="Multiple options apply to me"
+								>Multiple options apply to me</option
+							>
+						</select>
+					</fieldset>
+					<button href="#" id="submit" type="submit">RSVP Me!</button>
+				</form>
+			</section>
+		</div>
+		<script src="./resources/js/custom.js"></script>
+	</body>
+</html>
